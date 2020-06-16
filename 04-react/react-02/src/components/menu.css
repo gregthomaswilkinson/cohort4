@@ -1,0 +1,84 @@
+.Mjolnir {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    animation: App-logo-spin infinite 20s linear;
+  }
+  
+  .filter-green {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  }
+  
+  .TicTacToe {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    animation: App-logo-spin infinite 40s linear;
+    animation-direction: alternate-reverse;
+  }
+
+  .DollarBill {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  .filter-moneygreen {
+    filter: invert(69%) sepia(32%) saturate(533%) hue-rotate(54deg) brightness(93%) contrast(89%);
+  }
+
+  .CitySkyline {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .Star-O {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    animation: App-logo-spin infinite 15s linear;
+  }
+
+  .filter-red {
+    filter: invert(15%) sepia(37%) saturate(7066%) hue-rotate(355deg) brightness(76%) contrast(121%);
+  }
+  
+  .CoolLlama {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+  }
+
+  .YinYang {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    animation: App-logo-spin infinite 40s linear;
+    animation-direction: reverse;
+    
+  }
+
+  .filter-blue {
+    filter: invert(100%) sepia(46%) saturate(2389%) hue-rotate(159deg) brightness(92%) contrast(103%);
+  }
+  
+  .BabyYoda {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    animation: App-logo-spin infinite 60s linear;
+  }
+  
+  .Ra {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    animation: App-logo-spin infinite 5s linear;
+    animation-direction: alternate-reverse;
+  }
+  
+  .Ra:hover {
+    filter: invert(90%) sepia(56%) saturate(4204%) hue-rotate(326deg) brightness(97%) contrast(91%);
+  }

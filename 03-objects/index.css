@@ -1,0 +1,21 @@
+.card {
+    display: grid;
+    justify-content: center;
+    background-color: deepskyblue;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.grid-item {
+    text-align: center;
+    align-content: center;
+}

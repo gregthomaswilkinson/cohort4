@@ -1,0 +1,21 @@
+.card {
+    display: grid;
+    justify-content: center;
+    background-color: deepskyblue;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.communities-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    justify-content: space-evenly;
+}
+
+.communities-grid-item {
+    text-align: center;
+    align-content: center;
+}

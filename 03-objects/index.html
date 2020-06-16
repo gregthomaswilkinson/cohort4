@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working With Classes</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <span>Account Display</span><br>
+    <span id="idAccountDisplayArea"></span><br>
+    <span id="idAccountStartingBalance"></span><br>
+    <span id="idAccountCurrentBalance"></span><br>
+    <div>
+        <span>Enter the name of the account to create or view</span><br>
+        <input type ="text" id ="idAccountName" placeholder="name of your Account"></input><br>
+        <button type = "button" id= "idDisplayAccount">Display Account Information</button><br>
+        <button type = "button" id= "idAddAccount">Add Account</button>
+        <button type = "button" id= "idRemoveAccount">Remove Account</button><br>
+        <span>Enter how much to deposit in the field below</span><br>
+        <input type ="text" id ="idDeposit" placeholder="Deposit Amount"></input><br>
+        <button type = "button" id= "idGetPaid">It's Payday!!</button><br>
+        <span>View Account info</span><br>
+        <button type = "button" id= "idSmallestAccount">Who's got the smallest bank account</button>
+        <button type = "button" id= "idLargestAccount">Who's got da biggest bank!</button>
+        <button type = "button" id= "idAccountTotal">Total value of all Accounts</button>
+    </div><br><br><br>
+    <div>
+        <span>City and Communities project</span><br><br>
+        <form>
+            <label for="Cname">City name:</label>
+            <input type ="text" id ="idCityName" placeholder="Name of the City"></input><br>
+            <label for="lat">Latitude:</label>
+            <input type ="number" id ="idLatitude" placeholder="Decimal Degrees"></input><br>
+            <label for="long">Longitude:</label>
+            <input type ="number" id ="idLongitude" placeholder="Decimal Degrees"></input><br>
+            <label for="Pop">Population:</label>
+            <input type ="number" id ="idPopulation" placeholder="Population"></input><br>
+            <button type = "button" id= "idInputCity">Input City Data</button><br><br>
+        </form>
+        <div class="grid-container">
+            <div class="grid-item">Most Northern City:<br>
+                <span id ="idMostNorth"></span>
+            </div>
+            <div class="grid-item">Most Southern City:<br>
+                <span id ="idMostSouth"></span>
+            </div>
+            <div class="grid-item">Total Population of all cities:<br>
+                <span id ="idTotalPopulation"></span>
+            </div>
+        </div><br>
+        <div id="idCardSpot" class= "grid-container">   
+        </div>
+    </div>
+
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+</html>
